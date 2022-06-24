@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: white;
+    }
+  }
+
+body {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    padding: 20px 35px;
+    background-color: white;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 50px;
+    color: black;
+    margin: 0;
+    display: inline;
+}
+
+header nav {
+    float: right;
+    margin: 0 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+    margin-right: 100px;
+}
+
+header nav ul li a {
+    margin: 0 20px;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+/*photo section*/
+
+.photo {
+    margin: 20px 20px 20px 20px;
+    padding: 0 0 0 0;
+    background-color: ivory;
+}
+
+.photo-MS .photo {
+    width: 200px;
+    height: 200px;
+    float: center;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 40;
+}
+
+.photo-MS .photo h2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: lighter;
+}
+
+/* about me projects and contact section */
+
+.about-projects-contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: left;
+    padding: 50px 50px 50px 50px;
+}
+
+.about-me .work-projects .contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.about-me h2 .work-projects h2 .contact-info h2 {
+    color: orange;
+    font-size: 30px;
+    font-weight: lighter;
+    flex: 1 15%;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.work-projects img {
+    width: 500px;
+    height: 400px;
+    float: center;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0;
+}
+
+
+    /* WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section */
+
+/* WHEN I click on the link to the section about their work
+THEN the UI scrolls to a section with titled images of the developer's applications */
+
+/* WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others */
+
+/* WHEN I click on the images of the applications
+THEN I am taken to that deployed application */
+
+/* WHEN I resize the page or view the site on various screens and devices
+THEN I am presented with a responsive layout that adapts to my viewport */
+
